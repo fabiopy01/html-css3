@@ -1,0 +1,47 @@
+.Manha {
+  color: rgb(201, 7, 7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza o conteúdo verticalmente */
+  align-items: center; /* centraliza o conteúdo horizontalmente */
+}
+.Meio-dia {
+  color: rgb(43, 214, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botão {
+  font: 1em sans-serif;
+  color: rgb(10, 221, 221);
+  font-size: larger;
+  background-color: rgb(99, 67, 67);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarde {
+  color: rgb(8, 52, 196);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

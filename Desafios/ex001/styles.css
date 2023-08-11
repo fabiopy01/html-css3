@@ -1,0 +1,26 @@
+body{
+    padding-top: 10px;
+    margin: 0%;
+    text-align: center;
+    background-color: rgba(36, 21, 21, 0.096);
+}
+h1{
+    color: rgb(7, 119, 211);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#musica{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-style: italic;
+    border: solid 3px red;
+}
+#clique-aqui{
+   background-color: aqua; 
+   color: black;
+   font-size: medium;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: auto;
+   transform-box: 0.4 red;
+}

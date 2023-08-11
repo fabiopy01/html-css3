@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: dimgrey;
+      }
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+      nav {
+        background-color: rgb(0, 0, 0);
+        padding: 3px;
+        text-align: center;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
+      nav > a {
+        text-decoration: none;
+        color: rgb(255, 252, 252);
+        font-weight: bold;
+        margin: 10px;
+      }
+      nav > a:hover {
+        text-decoration: underline red;
+      }
+      h1 {
+        text-align: center;
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.452);
+      }
+      article {
+        padding: 4px;
+      }
+      aside {
+        background-color: darkgrey;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 1px;
+      }
+
+      footer {
+        color: white;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+      #esportes {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Entre em contato</a>
+        <a href="#">Login</a>
+        <a href="#">Registrar</a>
+        <a href="#">Ajuda</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <p id="esportes">Esportes Politicas e Tecnologias</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticia sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            tempore, veritatis quaerat nam veniam asperiores quia dolor, dolorum
+            ab tempora distinctio laudantium, soluta et? Expedita quidem odit
+            repellendus a aperiam?
+          </p>
+
+          <aside>
+            <p>Artigo escrito por josé da silva</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>desenvolvido por Fabio..</p>
+    </footer>
+  </body>
+</html>
